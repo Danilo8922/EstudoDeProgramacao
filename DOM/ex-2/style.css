@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    margin: 40px;
+}
+
+header > h1{
+    text-align: center;
+}
+
+main section{
+    display: flex;
+    flex-direction: column;
+}
+
+main section label{
+    text-align: center;
+}
+
+main section input{
+    width: 400px;
+    margin: 10px auto;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+main section button{
+    width: 400px;
+    margin: 10px auto;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+main section button:hover{
+    transform: scale(1.05);
+}
+
+main ul{
+    text-align: center;
+    list-style: none;
+}
+
+main ul li{
+    margin: 10px auto;
+    border: 1px solid black;
+    width: 400px;
+    font-size: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+main ul li:hover{
+    transform: scale(1.1);
+}
