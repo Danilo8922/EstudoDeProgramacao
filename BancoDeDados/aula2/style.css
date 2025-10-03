@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1{
+    text-align: center;
+    margin: 20px;
+}
+
+
+
+main section{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: auto;
+    align-items: center;
+    
+}
+
+main section input{
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 3px 5px 3px 5px;
+    
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+main section button{
+    width: 120px;
+    padding: 8px;
+    background-color: rgba(4, 226, 4, 0.686);
+    border-radius: 8px;
+    border: none;
+    text-decoration: none;
+    font-size: 18px;
+    transition: transform 0.3s ease;
+}
+
+main section button:hover{
+    transform: scale(1.05);
+}
+
+main ul{
+    margin: 20px auto;
+    list-style: none;
+    width: 1000px;
+    text-align: center;
+}
+
+main ul li{
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    transition: transform 0.3s ease;
+}
+
+main ul li:hover{
+    transform: scale(1.01);
+}
+
+main ul li .deletar{
+    padding: 5px;
+    border: none;
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+main ul li .deletar:hover{
+    transform: scale(1.2);
+}
